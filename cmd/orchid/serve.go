@@ -64,7 +64,7 @@ func (s *serveCmd) Execute(ctx context.Context, f *flag.FlagSet, args ...interfa
 	return subcommands.ExitSuccess
 }
 
-//go:embed mail-templates/*.go.{html,txt}
+//go:embed mail-templates/*.go.*
 var mailTemplates embed.FS
 
 func normalLoad(conf startUpConfig, wd string) {
