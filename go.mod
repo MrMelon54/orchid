@@ -4,7 +4,8 @@ go 1.23.1
 
 require (
 	github.com/1f349/mjwt v0.4.1
-	github.com/1f349/simplemail v0.0.4
+	github.com/1f349/overlapfs v0.0.1
+	github.com/1f349/simplemail v0.0.5
 	github.com/1f349/violet v0.0.14
 	github.com/AlecAivazis/survey/v2 v2.3.7
 	github.com/charmbracelet/log v0.4.0
@@ -24,7 +25,6 @@ require (
 )
 
 require (
-	github.com/1f349/overlapfs v0.0.1 // indirect
 	github.com/1f349/rsa-helper v0.0.2 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/becheran/wildmatch-go v1.0.0 // indirect
